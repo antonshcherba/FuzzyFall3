@@ -1,0 +1,1437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840611C81C3DC681005BA16B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840611C71C3DC681005BA16B /* CoreLocation.framework */; };
+		840DE92F1C3BD4AA00D40795 /* ActivityMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DE92E1C3BD4AA00D40795 /* ActivityMonitor.swift */; };
+		840F52831C0B88DF0089B8CE /* FuzzySolver.mm in Sources */ = {isa = PBXBuildFile; fileRef = 840F52821C0B88DF0089B8CE /* FuzzySolver.mm */; };
+		840F533C1C0B89440089B8CE /* Accumulated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E21C0B89430089B8CE /* Accumulated.cpp */; };
+		840F533D1C0B89440089B8CE /* Activated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E31C0B89430089B8CE /* Activated.cpp */; };
+		840F533E1C0B89440089B8CE /* AlgebraicProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E41C0B89430089B8CE /* AlgebraicProduct.cpp */; };
+		840F533F1C0B89440089B8CE /* AlgebraicSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E51C0B89430089B8CE /* AlgebraicSum.cpp */; };
+		840F53401C0B89440089B8CE /* Antecedent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E61C0B89430089B8CE /* Antecedent.cpp */; };
+		840F53411C0B89440089B8CE /* Any.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E71C0B89430089B8CE /* Any.cpp */; };
+		840F53421C0B89440089B8CE /* Bell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E81C0B89430089B8CE /* Bell.cpp */; };
+		840F53431C0B89440089B8CE /* Bisector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52E91C0B89430089B8CE /* Bisector.cpp */; };
+		840F53441C0B89440089B8CE /* BoundedDifference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52EA1C0B89430089B8CE /* BoundedDifference.cpp */; };
+		840F53451C0B89440089B8CE /* BoundedSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52EB1C0B89430089B8CE /* BoundedSum.cpp */; };
+		840F53461C0B89440089B8CE /* Centroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52EC1C0B89430089B8CE /* Centroid.cpp */; };
+		840F53471C0B89440089B8CE /* CloningFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52ED1C0B89430089B8CE /* CloningFactory.cpp */; };
+		840F53481C0B89440089B8CE /* Concave.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52EE1C0B89430089B8CE /* Concave.cpp */; };
+		840F53491C0B89440089B8CE /* Consequent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52EF1C0B89430089B8CE /* Consequent.cpp */; };
+		840F534A1C0B89440089B8CE /* Console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F01C0B89430089B8CE /* Console.cpp */; };
+		840F534B1C0B89440089B8CE /* Constant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F11C0B89430089B8CE /* Constant.cpp */; };
+		840F534C1C0B89440089B8CE /* ConstructionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F21C0B89430089B8CE /* ConstructionFactory.cpp */; };
+		840F534D1C0B89440089B8CE /* Cosine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F31C0B89430089B8CE /* Cosine.cpp */; };
+		840F534E1C0B89440089B8CE /* CppExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F41C0B89430089B8CE /* CppExporter.cpp */; };
+		840F534F1C0B89440089B8CE /* DefuzzifierFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F51C0B89430089B8CE /* DefuzzifierFactory.cpp */; };
+		840F53501C0B89440089B8CE /* Discrete.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F61C0B89430089B8CE /* Discrete.cpp */; };
+		840F53511C0B89440089B8CE /* DrasticProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F71C0B89430089B8CE /* DrasticProduct.cpp */; };
+		840F53521C0B89440089B8CE /* DrasticSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F81C0B89430089B8CE /* DrasticSum.cpp */; };
+		840F53531C0B89440089B8CE /* EinsteinProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52F91C0B89430089B8CE /* EinsteinProduct.cpp */; };
+		840F53541C0B89440089B8CE /* EinsteinSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52FA1C0B89430089B8CE /* EinsteinSum.cpp */; };
+		840F53551C0B89440089B8CE /* Engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52FB1C0B89430089B8CE /* Engine.cpp */; };
+		840F53561C0B89440089B8CE /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52FC1C0B89440089B8CE /* Exception.cpp */; };
+		840F53571C0B89440089B8CE /* Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52FD1C0B89440089B8CE /* Exporter.cpp */; };
+		840F53581C0B89440089B8CE /* Expression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52FE1C0B89440089B8CE /* Expression.cpp */; };
+		840F53591C0B89440089B8CE /* Extremely.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F52FF1C0B89440089B8CE /* Extremely.cpp */; };
+		840F535A1C0B89440089B8CE /* FactoryManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53001C0B89440089B8CE /* FactoryManager.cpp */; };
+		840F535B1C0B89440089B8CE /* FclExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53011C0B89440089B8CE /* FclExporter.cpp */; };
+		840F535C1C0B89440089B8CE /* FclImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53021C0B89440089B8CE /* FclImporter.cpp */; };
+		840F535D1C0B89440089B8CE /* FisExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53031C0B89440089B8CE /* FisExporter.cpp */; };
+		840F535E1C0B89440089B8CE /* FisImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53041C0B89440089B8CE /* FisImporter.cpp */; };
+		840F535F1C0B89440089B8CE /* FldExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53051C0B89440089B8CE /* FldExporter.cpp */; };
+		840F53601C0B89440089B8CE /* FllExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53061C0B89440089B8CE /* FllExporter.cpp */; };
+		840F53611C0B89440089B8CE /* FllImporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53071C0B89440089B8CE /* FllImporter.cpp */; };
+		840F53621C0B89440089B8CE /* Function.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53081C0B89440089B8CE /* Function.cpp */; };
+		840F53631C0B89440089B8CE /* FunctionFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53091C0B89440089B8CE /* FunctionFactory.cpp */; };
+		840F53641C0B89440089B8CE /* fuzzylite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F530A1C0B89440089B8CE /* fuzzylite.cpp */; };
+		840F53651C0B89440089B8CE /* Gaussian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F530B1C0B89440089B8CE /* Gaussian.cpp */; };
+		840F53661C0B89440089B8CE /* GaussianProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F530C1C0B89440089B8CE /* GaussianProduct.cpp */; };
+		840F53671C0B89440089B8CE /* HamacherProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F530D1C0B89440089B8CE /* HamacherProduct.cpp */; };
+		840F53681C0B89440089B8CE /* HamacherSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F530E1C0B89440089B8CE /* HamacherSum.cpp */; };
+		840F53691C0B89440089B8CE /* HedgeFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F530F1C0B89440089B8CE /* HedgeFactory.cpp */; };
+		840F536A1C0B89440089B8CE /* Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53101C0B89440089B8CE /* Importer.cpp */; };
+		840F536B1C0B89440089B8CE /* InputVariable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53111C0B89440089B8CE /* InputVariable.cpp */; };
+		840F536C1C0B89440089B8CE /* IntegralDefuzzifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53121C0B89440089B8CE /* IntegralDefuzzifier.cpp */; };
+		840F536D1C0B89440089B8CE /* JavaExporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53131C0B89440089B8CE /* JavaExporter.cpp */; };
+		840F536E1C0B89440089B8CE /* LargestOfMaximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53141C0B89440089B8CE /* LargestOfMaximum.cpp */; };
+		840F536F1C0B89440089B8CE /* Linear.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53151C0B89440089B8CE /* Linear.cpp */; };
+		840F53701C0B89440089B8CE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53161C0B89440089B8CE /* main.cpp */; };
+		840F53711C0B89440089B8CE /* Maximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53171C0B89440089B8CE /* Maximum.cpp */; };
+		840F53721C0B89440089B8CE /* MeanOfMaximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53181C0B89440089B8CE /* MeanOfMaximum.cpp */; };
+		840F53731C0B89440089B8CE /* Minimum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53191C0B89440089B8CE /* Minimum.cpp */; };
+		840F53741C0B89440089B8CE /* NilpotentMaximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F531A1C0B89440089B8CE /* NilpotentMaximum.cpp */; };
+		840F53751C0B89440089B8CE /* NilpotentMinimum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F531B1C0B89440089B8CE /* NilpotentMinimum.cpp */; };
+		840F53761C0B89440089B8CE /* NormalizedSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F531C1C0B89440089B8CE /* NormalizedSum.cpp */; };
+		840F53771C0B89440089B8CE /* Not.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F531D1C0B89440089B8CE /* Not.cpp */; };
+		840F53781C0B89440089B8CE /* Operation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F531E1C0B89440089B8CE /* Operation.cpp */; };
+		840F53791C0B89440089B8CE /* OutputVariable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F531F1C0B89440089B8CE /* OutputVariable.cpp */; };
+		840F537A1C0B89440089B8CE /* PiShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53201C0B89440089B8CE /* PiShape.cpp */; };
+		840F537B1C0B89440089B8CE /* Ramp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53211C0B89440089B8CE /* Ramp.cpp */; };
+		840F537C1C0B89440089B8CE /* Rectangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53221C0B89440089B8CE /* Rectangle.cpp */; };
+		840F537D1C0B89440089B8CE /* Rule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53231C0B89440089B8CE /* Rule.cpp */; };
+		840F537E1C0B89440089B8CE /* RuleBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53241C0B89440089B8CE /* RuleBlock.cpp */; };
+		840F537F1C0B89440089B8CE /* Seldom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53251C0B89440089B8CE /* Seldom.cpp */; };
+		840F53801C0B89440089B8CE /* Sigmoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53261C0B89440089B8CE /* Sigmoid.cpp */; };
+		840F53811C0B89440089B8CE /* SigmoidDifference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53271C0B89440089B8CE /* SigmoidDifference.cpp */; };
+		840F53821C0B89440089B8CE /* SigmoidProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53281C0B89440089B8CE /* SigmoidProduct.cpp */; };
+		840F53831C0B89440089B8CE /* SmallestOfMaximum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53291C0B89440089B8CE /* SmallestOfMaximum.cpp */; };
+		840F53841C0B89440089B8CE /* SNormFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F532A1C0B89440089B8CE /* SNormFactory.cpp */; };
+		840F53851C0B89440089B8CE /* Somewhat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F532B1C0B89440089B8CE /* Somewhat.cpp */; };
+		840F53861C0B89440089B8CE /* Spike.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F532C1C0B89440089B8CE /* Spike.cpp */; };
+		840F53871C0B89440089B8CE /* SShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F532D1C0B89440089B8CE /* SShape.cpp */; };
+		840F53881C0B89440089B8CE /* Term.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F532E1C0B89440089B8CE /* Term.cpp */; };
+		840F53891C0B89440089B8CE /* TermFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F532F1C0B89440089B8CE /* TermFactory.cpp */; };
+		840F538A1C0B89440089B8CE /* TNormFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53301C0B89440089B8CE /* TNormFactory.cpp */; };
+		840F538B1C0B89440089B8CE /* Trapezoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53311C0B89440089B8CE /* Trapezoid.cpp */; };
+		840F538C1C0B89440089B8CE /* Triangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53321C0B89440089B8CE /* Triangle.cpp */; };
+		840F538D1C0B89440089B8CE /* Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53331C0B89440089B8CE /* Variable.cpp */; };
+		840F538E1C0B89440089B8CE /* Very.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53341C0B89440089B8CE /* Very.cpp */; };
+		840F538F1C0B89440089B8CE /* WeightedAverage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53351C0B89440089B8CE /* WeightedAverage.cpp */; };
+		840F53901C0B89440089B8CE /* WeightedDefuzzifier.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53361C0B89440089B8CE /* WeightedDefuzzifier.cpp */; };
+		840F53911C0B89440089B8CE /* WeightedSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53371C0B89440089B8CE /* WeightedSum.cpp */; };
+		840F53921C0B89440089B8CE /* ZShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 840F53381C0B89440089B8CE /* ZShape.cpp */; };
+		840F53931C0B89440089B8CE /* MovingAverage.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F533B1C0B89440089B8CE /* MovingAverage.m */; };
+		840F7B031C8D8F4400D348FE /* Backgrounder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840F7B021C8D8F4400D348FE /* Backgrounder.swift */; };
+		841D62871C8EE7DE00F8AFA7 /* Configs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 841D62861C8EE7DE00F8AFA7 /* Configs.plist */; };
+		841EF0C31BDF93C500699A90 /* CallChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841EF0C21BDF93C500699A90 /* CallChecker.swift */; };
+		841EF0C51BDF964E00699A90 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841EF0C41BDF964E00699A90 /* CoreTelephony.framework */; };
+		844569A61C3EA1EB00E5537A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844569A51C3EA1EB00E5537A /* SettingsViewController.swift */; };
+		844569A81C3EA62F00E5537A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844569A71C3EA62F00E5537A /* MenuViewController.swift */; };
+		844569AA1C3EC78900E5537A /* FallDetectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844569A91C3EC78900E5537A /* FallDetectorViewController.swift */; };
+		844703211C5FE0AA0009F400 /* 1min.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 844703201C5FE0AA0009F400 /* 1min.mp3 */; };
+		844703231C5FE6590009F400 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844703221C5FE6590009F400 /* AboutViewController.swift */; };
+		84656D691C835EE50009E631 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84656D661C835EE50009E631 /* User+CoreDataProperties.swift */; };
+		84656D6A1C835EE50009E631 /* DetectorSettings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84656D671C835EE50009E631 /* DetectorSettings+CoreDataProperties.swift */; };
+		84656D6D1C835F370009E631 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84656D6C1C835F370009E631 /* User.swift */; };
+		84761C461C3F95CC0000BFFD /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84761C451C3F95CC0000BFFD /* MainModel.swift */; };
+		84761C481C3FC7370000BFFD /* UserAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84761C471C3FC7370000BFFD /* UserAlert.swift */; };
+		84761C4A1C3FCFF30000BFFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84761C491C3FCFF30000BFFD /* AudioToolbox.framework */; };
+		8495E3D51C3EF55300E5816F /* DetectorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3D41C3EF55300E5816F /* DetectorSettings.swift */; };
+		8495E3D91C3F1A4B00E5816F /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495E3D81C3F1A4B00E5816F /* SettingsManager.swift */; };
+		849B70DC1BE28CEE004BC624 /* Measures.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849B70DA1BE28CEE004BC624 /* Measures.xcdatamodeld */; };
+		849B70E01BE29046004BC624 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B70DF1BE29046004BC624 /* DatabaseManager.swift */; };
+		849E57361C84DD9600D0D36C /* String+Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849E57351C84DD9600D0D36C /* String+Validators.swift */; };
+		84BDC5061BF20968008C08A6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BDC5051BF20968008C08A6 /* AVFoundation.framework */; };
+		84CB5EF21C0C252E00BE4072 /* FallDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CB5EF11C0C252E00BE4072 /* FallDetector.swift */; };
+		84D37DB91BA0D33E0063CE8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D37DB81BA0D33E0063CE8E /* AppDelegate.swift */; };
+		84D37DBE1BA0D33F0063CE8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D37DBC1BA0D33F0063CE8E /* Main.storyboard */; };
+		84D37DC01BA0D33F0063CE8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D37DBF1BA0D33F0063CE8E /* Assets.xcassets */; };
+		84D37DCE1BA0D33F0063CE8E /* MotionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D37DCD1BA0D33F0063CE8E /* MotionsTests.swift */; };
+		84D37DD91BA0D33F0063CE8E /* MotionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D37DD81BA0D33F0063CE8E /* MotionsUITests.swift */; };
+		84D68A3A1C57F1AE00EFED7D /* UserSettings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D68A381C57F1AE00EFED7D /* UserSettings+CoreDataProperties.swift */; };
+		84D68A3B1C57F1AE00EFED7D /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D68A391C57F1AE00EFED7D /* UserSettings.swift */; };
+		84DE84D01BE4CDA3005FD938 /* Measure+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE84CE1BE4CDA3005FD938 /* Measure+CoreDataProperties.swift */; };
+		84DE84D11BE4CDA3005FD938 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DE84CF1BE4CDA3005FD938 /* Measure.swift */; };
+		84E1E28B1C4BFC0C00E16876 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E1E28A1C4BFC0C00E16876 /* MessageUI.framework */; };
+		84E2422F1C404F6E001F3FA4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E2422E1C404F6E001F3FA4 /* SignUpViewController.swift */; };
+		84E242391C406EA8001F3FA4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E242381C406EA8001F3FA4 /* LoginViewController.swift */; };
+		84E298001C903B49000B2BE6 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E297FF1C903B49000B2BE6 /* MotionManager.swift */; };
+		84E298031C903BD0000B2BE6 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E298021C903BD0000B2BE6 /* SWRevealViewController.m */; };
+		84E298051C903C1B000B2BE6 /* Duration+Validators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E298041C903C1B000B2BE6 /* Duration+Validators.swift */; };
+		84E5E2181C8AEF050091812C /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E5E2171C8AEF050091812C /* CoreMotion.framework */; };
+		84E5E21A1C8B117E0091812C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E2191C8B117E0091812C /* Constants.swift */; };
+		84E5E21C1C8B414C0091812C /* Emergency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E21B1C8B414C0091812C /* Emergency.swift */; };
+		84E5E21E1C8B882C0091812C /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E21D1C8B882C0091812C /* LocationManager.swift */; };
+		84F14AB11BE2D7B200148EF5 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F14AB01BE2D7B200148EF5 /* libsqlite3.tbd */; };
+		84F14AB31BE2D7E200148EF5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F14AB21BE2D7E200148EF5 /* CFNetwork.framework */; };
+		84F14AB51BE2D83C00148EF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F14AB41BE2D83C00148EF5 /* SystemConfiguration.framework */; };
+		EB8F8011AC65E2AD7ABFD283 /* Pods_Motions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F7AA0EC8F0B2141D0CC386 /* Pods_Motions.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D37DCA1BA0D33F0063CE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D37DAD1BA0D33E0063CE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D37DB41BA0D33E0063CE8E;
+			remoteInfo = Motions;
+		};
+		84D37DD51BA0D33F0063CE8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D37DAD1BA0D33E0063CE8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D37DB41BA0D33E0063CE8E;
+			remoteInfo = Motions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84E4CA301BB9D0C600E724D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		38F7AA0EC8F0B2141D0CC386 /* Pods_Motions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53756B37464BDA613269B63A /* Pods-Motions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motions.release.xcconfig"; path = "Pods/Target Support Files/Pods-Motions/Pods-Motions.release.xcconfig"; sourceTree = "<group>"; };
+		840611C71C3DC681005BA16B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		840DE92E1C3BD4AA00D40795 /* ActivityMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityMonitor.swift; path = Models/ActivityMonitor.swift; sourceTree = "<group>"; };
+		840F52811C0B88DF0089B8CE /* FuzzySolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FuzzySolver.h; path = Models/FuzzySolver.h; sourceTree = "<group>"; };
+		840F52821C0B88DF0089B8CE /* FuzzySolver.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FuzzySolver.mm; path = Models/FuzzySolver.mm; sourceTree = "<group>"; };
+		840F52851C0B89430089B8CE /* Accumulated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accumulated.h; sourceTree = "<group>"; };
+		840F52861C0B89430089B8CE /* Activated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activated.h; sourceTree = "<group>"; };
+		840F52871C0B89430089B8CE /* AlgebraicProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgebraicProduct.h; sourceTree = "<group>"; };
+		840F52881C0B89430089B8CE /* AlgebraicSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgebraicSum.h; sourceTree = "<group>"; };
+		840F52891C0B89430089B8CE /* Antecedent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Antecedent.h; sourceTree = "<group>"; };
+		840F528A1C0B89430089B8CE /* Any.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.h; sourceTree = "<group>"; };
+		840F528B1C0B89430089B8CE /* Bell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bell.h; sourceTree = "<group>"; };
+		840F528C1C0B89430089B8CE /* Bisector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bisector.h; sourceTree = "<group>"; };
+		840F528D1C0B89430089B8CE /* BoundedDifference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundedDifference.h; sourceTree = "<group>"; };
+		840F528E1C0B89430089B8CE /* BoundedSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundedSum.h; sourceTree = "<group>"; };
+		840F528F1C0B89430089B8CE /* Centroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Centroid.h; sourceTree = "<group>"; };
+		840F52901C0B89430089B8CE /* CloningFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloningFactory.h; sourceTree = "<group>"; };
+		840F52911C0B89430089B8CE /* Concave.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Concave.h; sourceTree = "<group>"; };
+		840F52921C0B89430089B8CE /* Consequent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consequent.h; sourceTree = "<group>"; };
+		840F52931C0B89430089B8CE /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+		840F52941C0B89430089B8CE /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		840F52951C0B89430089B8CE /* ConstructionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstructionFactory.h; sourceTree = "<group>"; };
+		840F52961C0B89430089B8CE /* Cosine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cosine.h; sourceTree = "<group>"; };
+		840F52971C0B89430089B8CE /* CppExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CppExporter.h; sourceTree = "<group>"; };
+		840F52981C0B89430089B8CE /* Defuzzifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defuzzifier.h; sourceTree = "<group>"; };
+		840F52991C0B89430089B8CE /* DefuzzifierFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefuzzifierFactory.h; sourceTree = "<group>"; };
+		840F529A1C0B89430089B8CE /* Discrete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discrete.h; sourceTree = "<group>"; };
+		840F529B1C0B89430089B8CE /* DrasticProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrasticProduct.h; sourceTree = "<group>"; };
+		840F529C1C0B89430089B8CE /* DrasticSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrasticSum.h; sourceTree = "<group>"; };
+		840F529D1C0B89430089B8CE /* EinsteinProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinsteinProduct.h; sourceTree = "<group>"; };
+		840F529E1C0B89430089B8CE /* EinsteinSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EinsteinSum.h; sourceTree = "<group>"; };
+		840F529F1C0B89430089B8CE /* Engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		840F52A01C0B89430089B8CE /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		840F52A11C0B89430089B8CE /* Exporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exporter.h; sourceTree = "<group>"; };
+		840F52A21C0B89430089B8CE /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		840F52A31C0B89430089B8CE /* Extremely.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extremely.h; sourceTree = "<group>"; };
+		840F52A41C0B89430089B8CE /* FactoryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryManager.h; sourceTree = "<group>"; };
+		840F52A51C0B89430089B8CE /* FclExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FclExporter.h; sourceTree = "<group>"; };
+		840F52A61C0B89430089B8CE /* FclImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FclImporter.h; sourceTree = "<group>"; };
+		840F52A71C0B89430089B8CE /* FisExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FisExporter.h; sourceTree = "<group>"; };
+		840F52A81C0B89430089B8CE /* FisImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FisImporter.h; sourceTree = "<group>"; };
+		840F52A91C0B89430089B8CE /* FldExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FldExporter.h; sourceTree = "<group>"; };
+		840F52AA1C0B89430089B8CE /* FllExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FllExporter.h; sourceTree = "<group>"; };
+		840F52AB1C0B89430089B8CE /* FllImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FllImporter.h; sourceTree = "<group>"; };
+		840F52AC1C0B89430089B8CE /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		840F52AD1C0B89430089B8CE /* FunctionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionFactory.h; sourceTree = "<group>"; };
+		840F52AE1C0B89430089B8CE /* fuzzylite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fuzzylite.h; sourceTree = "<group>"; };
+		840F52AF1C0B89430089B8CE /* Gaussian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gaussian.h; sourceTree = "<group>"; };
+		840F52B01C0B89430089B8CE /* GaussianProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaussianProduct.h; sourceTree = "<group>"; };
+		840F52B11C0B89430089B8CE /* HamacherProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamacherProduct.h; sourceTree = "<group>"; };
+		840F52B21C0B89430089B8CE /* HamacherSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HamacherSum.h; sourceTree = "<group>"; };
+		840F52B31C0B89430089B8CE /* Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headers.h; sourceTree = "<group>"; };
+		840F52B41C0B89430089B8CE /* Hedge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hedge.h; sourceTree = "<group>"; };
+		840F52B51C0B89430089B8CE /* HedgeFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HedgeFactory.h; sourceTree = "<group>"; };
+		840F52B61C0B89430089B8CE /* Importer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Importer.h; sourceTree = "<group>"; };
+		840F52B71C0B89430089B8CE /* InputVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputVariable.h; sourceTree = "<group>"; };
+		840F52B81C0B89430089B8CE /* IntegralDefuzzifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegralDefuzzifier.h; sourceTree = "<group>"; };
+		840F52B91C0B89430089B8CE /* JavaExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JavaExporter.h; sourceTree = "<group>"; };
+		840F52BA1C0B89430089B8CE /* LargestOfMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LargestOfMaximum.h; sourceTree = "<group>"; };
+		840F52BB1C0B89430089B8CE /* Linear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Linear.h; sourceTree = "<group>"; };
+		840F52BC1C0B89430089B8CE /* Maximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maximum.h; sourceTree = "<group>"; };
+		840F52BD1C0B89430089B8CE /* MeanOfMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeanOfMaximum.h; sourceTree = "<group>"; };
+		840F52BE1C0B89430089B8CE /* Minimum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Minimum.h; sourceTree = "<group>"; };
+		840F52BF1C0B89430089B8CE /* NilpotentMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NilpotentMaximum.h; sourceTree = "<group>"; };
+		840F52C01C0B89430089B8CE /* NilpotentMinimum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NilpotentMinimum.h; sourceTree = "<group>"; };
+		840F52C11C0B89430089B8CE /* Norm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Norm.h; sourceTree = "<group>"; };
+		840F52C21C0B89430089B8CE /* NormalizedSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalizedSum.h; sourceTree = "<group>"; };
+		840F52C31C0B89430089B8CE /* Not.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Not.h; sourceTree = "<group>"; };
+		840F52C41C0B89430089B8CE /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		840F52C51C0B89430089B8CE /* OutputVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputVariable.h; sourceTree = "<group>"; };
+		840F52C61C0B89430089B8CE /* PiShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiShape.h; sourceTree = "<group>"; };
+		840F52C71C0B89430089B8CE /* Ramp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ramp.h; sourceTree = "<group>"; };
+		840F52C81C0B89430089B8CE /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		840F52C91C0B89430089B8CE /* Rule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rule.h; sourceTree = "<group>"; };
+		840F52CA1C0B89430089B8CE /* RuleBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuleBlock.h; sourceTree = "<group>"; };
+		840F52CB1C0B89430089B8CE /* Seldom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Seldom.h; sourceTree = "<group>"; };
+		840F52CC1C0B89430089B8CE /* Sigmoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sigmoid.h; sourceTree = "<group>"; };
+		840F52CD1C0B89430089B8CE /* SigmoidDifference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmoidDifference.h; sourceTree = "<group>"; };
+		840F52CE1C0B89430089B8CE /* SigmoidProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SigmoidProduct.h; sourceTree = "<group>"; };
+		840F52CF1C0B89430089B8CE /* SmallestOfMaximum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallestOfMaximum.h; sourceTree = "<group>"; };
+		840F52D01C0B89430089B8CE /* SNorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNorm.h; sourceTree = "<group>"; };
+		840F52D11C0B89430089B8CE /* SNormFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNormFactory.h; sourceTree = "<group>"; };
+		840F52D21C0B89430089B8CE /* Somewhat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Somewhat.h; sourceTree = "<group>"; };
+		840F52D31C0B89430089B8CE /* Spike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spike.h; sourceTree = "<group>"; };
+		840F52D41C0B89430089B8CE /* SShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SShape.h; sourceTree = "<group>"; };
+		840F52D51C0B89430089B8CE /* Term.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Term.h; sourceTree = "<group>"; };
+		840F52D61C0B89430089B8CE /* TermFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermFactory.h; sourceTree = "<group>"; };
+		840F52D71C0B89430089B8CE /* TNorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNorm.h; sourceTree = "<group>"; };
+		840F52D81C0B89430089B8CE /* TNormFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNormFactory.h; sourceTree = "<group>"; };
+		840F52D91C0B89430089B8CE /* Trapezoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trapezoid.h; sourceTree = "<group>"; };
+		840F52DA1C0B89430089B8CE /* Triangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Triangle.h; sourceTree = "<group>"; };
+		840F52DB1C0B89430089B8CE /* Variable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Variable.h; sourceTree = "<group>"; };
+		840F52DC1C0B89430089B8CE /* Very.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Very.h; sourceTree = "<group>"; };
+		840F52DD1C0B89430089B8CE /* WeightedAverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightedAverage.h; sourceTree = "<group>"; };
+		840F52DE1C0B89430089B8CE /* WeightedDefuzzifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightedDefuzzifier.h; sourceTree = "<group>"; };
+		840F52DF1C0B89430089B8CE /* WeightedSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightedSum.h; sourceTree = "<group>"; };
+		840F52E01C0B89430089B8CE /* ZShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZShape.h; sourceTree = "<group>"; };
+		840F52E21C0B89430089B8CE /* Accumulated.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Accumulated.cpp; sourceTree = "<group>"; };
+		840F52E31C0B89430089B8CE /* Activated.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Activated.cpp; sourceTree = "<group>"; };
+		840F52E41C0B89430089B8CE /* AlgebraicProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlgebraicProduct.cpp; sourceTree = "<group>"; };
+		840F52E51C0B89430089B8CE /* AlgebraicSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlgebraicSum.cpp; sourceTree = "<group>"; };
+		840F52E61C0B89430089B8CE /* Antecedent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Antecedent.cpp; sourceTree = "<group>"; };
+		840F52E71C0B89430089B8CE /* Any.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Any.cpp; sourceTree = "<group>"; };
+		840F52E81C0B89430089B8CE /* Bell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bell.cpp; sourceTree = "<group>"; };
+		840F52E91C0B89430089B8CE /* Bisector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bisector.cpp; sourceTree = "<group>"; };
+		840F52EA1C0B89430089B8CE /* BoundedDifference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoundedDifference.cpp; sourceTree = "<group>"; };
+		840F52EB1C0B89430089B8CE /* BoundedSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoundedSum.cpp; sourceTree = "<group>"; };
+		840F52EC1C0B89430089B8CE /* Centroid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Centroid.cpp; sourceTree = "<group>"; };
+		840F52ED1C0B89430089B8CE /* CloningFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CloningFactory.cpp; sourceTree = "<group>"; };
+		840F52EE1C0B89430089B8CE /* Concave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Concave.cpp; sourceTree = "<group>"; };
+		840F52EF1C0B89430089B8CE /* Consequent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Consequent.cpp; sourceTree = "<group>"; };
+		840F52F01C0B89430089B8CE /* Console.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Console.cpp; sourceTree = "<group>"; };
+		840F52F11C0B89430089B8CE /* Constant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constant.cpp; sourceTree = "<group>"; };
+		840F52F21C0B89430089B8CE /* ConstructionFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConstructionFactory.cpp; sourceTree = "<group>"; };
+		840F52F31C0B89430089B8CE /* Cosine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cosine.cpp; sourceTree = "<group>"; };
+		840F52F41C0B89430089B8CE /* CppExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CppExporter.cpp; sourceTree = "<group>"; };
+		840F52F51C0B89430089B8CE /* DefuzzifierFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DefuzzifierFactory.cpp; sourceTree = "<group>"; };
+		840F52F61C0B89430089B8CE /* Discrete.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Discrete.cpp; sourceTree = "<group>"; };
+		840F52F71C0B89430089B8CE /* DrasticProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrasticProduct.cpp; sourceTree = "<group>"; };
+		840F52F81C0B89430089B8CE /* DrasticSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DrasticSum.cpp; sourceTree = "<group>"; };
+		840F52F91C0B89430089B8CE /* EinsteinProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EinsteinProduct.cpp; sourceTree = "<group>"; };
+		840F52FA1C0B89430089B8CE /* EinsteinSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EinsteinSum.cpp; sourceTree = "<group>"; };
+		840F52FB1C0B89430089B8CE /* Engine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Engine.cpp; sourceTree = "<group>"; };
+		840F52FC1C0B89440089B8CE /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		840F52FD1C0B89440089B8CE /* Exporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exporter.cpp; sourceTree = "<group>"; };
+		840F52FE1C0B89440089B8CE /* Expression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Expression.cpp; sourceTree = "<group>"; };
+		840F52FF1C0B89440089B8CE /* Extremely.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Extremely.cpp; sourceTree = "<group>"; };
+		840F53001C0B89440089B8CE /* FactoryManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FactoryManager.cpp; sourceTree = "<group>"; };
+		840F53011C0B89440089B8CE /* FclExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FclExporter.cpp; sourceTree = "<group>"; };
+		840F53021C0B89440089B8CE /* FclImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FclImporter.cpp; sourceTree = "<group>"; };
+		840F53031C0B89440089B8CE /* FisExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FisExporter.cpp; sourceTree = "<group>"; };
+		840F53041C0B89440089B8CE /* FisImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FisImporter.cpp; sourceTree = "<group>"; };
+		840F53051C0B89440089B8CE /* FldExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FldExporter.cpp; sourceTree = "<group>"; };
+		840F53061C0B89440089B8CE /* FllExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FllExporter.cpp; sourceTree = "<group>"; };
+		840F53071C0B89440089B8CE /* FllImporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FllImporter.cpp; sourceTree = "<group>"; };
+		840F53081C0B89440089B8CE /* Function.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Function.cpp; sourceTree = "<group>"; };
+		840F53091C0B89440089B8CE /* FunctionFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FunctionFactory.cpp; sourceTree = "<group>"; };
+		840F530A1C0B89440089B8CE /* fuzzylite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fuzzylite.cpp; sourceTree = "<group>"; };
+		840F530B1C0B89440089B8CE /* Gaussian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Gaussian.cpp; sourceTree = "<group>"; };
+		840F530C1C0B89440089B8CE /* GaussianProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GaussianProduct.cpp; sourceTree = "<group>"; };
+		840F530D1C0B89440089B8CE /* HamacherProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HamacherProduct.cpp; sourceTree = "<group>"; };
+		840F530E1C0B89440089B8CE /* HamacherSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HamacherSum.cpp; sourceTree = "<group>"; };
+		840F530F1C0B89440089B8CE /* HedgeFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HedgeFactory.cpp; sourceTree = "<group>"; };
+		840F53101C0B89440089B8CE /* Importer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Importer.cpp; sourceTree = "<group>"; };
+		840F53111C0B89440089B8CE /* InputVariable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputVariable.cpp; sourceTree = "<group>"; };
+		840F53121C0B89440089B8CE /* IntegralDefuzzifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntegralDefuzzifier.cpp; sourceTree = "<group>"; };
+		840F53131C0B89440089B8CE /* JavaExporter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaExporter.cpp; sourceTree = "<group>"; };
+		840F53141C0B89440089B8CE /* LargestOfMaximum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LargestOfMaximum.cpp; sourceTree = "<group>"; };
+		840F53151C0B89440089B8CE /* Linear.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Linear.cpp; sourceTree = "<group>"; };
+		840F53161C0B89440089B8CE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		840F53171C0B89440089B8CE /* Maximum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Maximum.cpp; sourceTree = "<group>"; };
+		840F53181C0B89440089B8CE /* MeanOfMaximum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeanOfMaximum.cpp; sourceTree = "<group>"; };
+		840F53191C0B89440089B8CE /* Minimum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Minimum.cpp; sourceTree = "<group>"; };
+		840F531A1C0B89440089B8CE /* NilpotentMaximum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NilpotentMaximum.cpp; sourceTree = "<group>"; };
+		840F531B1C0B89440089B8CE /* NilpotentMinimum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NilpotentMinimum.cpp; sourceTree = "<group>"; };
+		840F531C1C0B89440089B8CE /* NormalizedSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NormalizedSum.cpp; sourceTree = "<group>"; };
+		840F531D1C0B89440089B8CE /* Not.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Not.cpp; sourceTree = "<group>"; };
+		840F531E1C0B89440089B8CE /* Operation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Operation.cpp; sourceTree = "<group>"; };
+		840F531F1C0B89440089B8CE /* OutputVariable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OutputVariable.cpp; sourceTree = "<group>"; };
+		840F53201C0B89440089B8CE /* PiShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PiShape.cpp; sourceTree = "<group>"; };
+		840F53211C0B89440089B8CE /* Ramp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ramp.cpp; sourceTree = "<group>"; };
+		840F53221C0B89440089B8CE /* Rectangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rectangle.cpp; sourceTree = "<group>"; };
+		840F53231C0B89440089B8CE /* Rule.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Rule.cpp; sourceTree = "<group>"; };
+		840F53241C0B89440089B8CE /* RuleBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RuleBlock.cpp; sourceTree = "<group>"; };
+		840F53251C0B89440089B8CE /* Seldom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Seldom.cpp; sourceTree = "<group>"; };
+		840F53261C0B89440089B8CE /* Sigmoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sigmoid.cpp; sourceTree = "<group>"; };
+		840F53271C0B89440089B8CE /* SigmoidDifference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SigmoidDifference.cpp; sourceTree = "<group>"; };
+		840F53281C0B89440089B8CE /* SigmoidProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SigmoidProduct.cpp; sourceTree = "<group>"; };
+		840F53291C0B89440089B8CE /* SmallestOfMaximum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmallestOfMaximum.cpp; sourceTree = "<group>"; };
+		840F532A1C0B89440089B8CE /* SNormFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SNormFactory.cpp; sourceTree = "<group>"; };
+		840F532B1C0B89440089B8CE /* Somewhat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Somewhat.cpp; sourceTree = "<group>"; };
+		840F532C1C0B89440089B8CE /* Spike.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Spike.cpp; sourceTree = "<group>"; };
+		840F532D1C0B89440089B8CE /* SShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SShape.cpp; sourceTree = "<group>"; };
+		840F532E1C0B89440089B8CE /* Term.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Term.cpp; sourceTree = "<group>"; };
+		840F532F1C0B89440089B8CE /* TermFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TermFactory.cpp; sourceTree = "<group>"; };
+		840F53301C0B89440089B8CE /* TNormFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TNormFactory.cpp; sourceTree = "<group>"; };
+		840F53311C0B89440089B8CE /* Trapezoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trapezoid.cpp; sourceTree = "<group>"; };
+		840F53321C0B89440089B8CE /* Triangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle.cpp; sourceTree = "<group>"; };
+		840F53331C0B89440089B8CE /* Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Variable.cpp; sourceTree = "<group>"; };
+		840F53341C0B89440089B8CE /* Very.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Very.cpp; sourceTree = "<group>"; };
+		840F53351C0B89440089B8CE /* WeightedAverage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WeightedAverage.cpp; sourceTree = "<group>"; };
+		840F53361C0B89440089B8CE /* WeightedDefuzzifier.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WeightedDefuzzifier.cpp; sourceTree = "<group>"; };
+		840F53371C0B89440089B8CE /* WeightedSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WeightedSum.cpp; sourceTree = "<group>"; };
+		840F53381C0B89440089B8CE /* ZShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ZShape.cpp; sourceTree = "<group>"; };
+		840F533A1C0B89440089B8CE /* MovingAverage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingAverage.h; sourceTree = "<group>"; };
+		840F533B1C0B89440089B8CE /* MovingAverage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingAverage.m; sourceTree = "<group>"; };
+		840F7B021C8D8F4400D348FE /* Backgrounder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Backgrounder.swift; path = Models/Backgrounder.swift; sourceTree = "<group>"; };
+		841D62861C8EE7DE00F8AFA7 /* Configs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configs.plist; sourceTree = "<group>"; };
+		841EF0C21BDF93C500699A90 /* CallChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CallChecker.swift; path = Models/CallChecker.swift; sourceTree = "<group>"; };
+		841EF0C41BDF964E00699A90 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		844569A51C3EA1EB00E5537A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = ViewControllers/SettingsViewController.swift; sourceTree = "<group>"; };
+		844569A71C3EA62F00E5537A /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ViewControllers/MenuViewController.swift; sourceTree = "<group>"; };
+		844569A91C3EC78900E5537A /* FallDetectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FallDetectorViewController.swift; path = ViewControllers/FallDetectorViewController.swift; sourceTree = "<group>"; };
+		844703201C5FE0AA0009F400 /* 1min.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1min.mp3; sourceTree = "<group>"; };
+		844703221C5FE6590009F400 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutViewController.swift; path = ViewControllers/AboutViewController.swift; sourceTree = "<group>"; };
+		84656D661C835EE50009E631 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "Models/User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84656D671C835EE50009E631 /* DetectorSettings+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DetectorSettings+CoreDataProperties.swift"; path = "Models/DetectorSettings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84656D6C1C835F370009E631 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		84761C451C3F95CC0000BFFD /* MainModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainModel.swift; path = Models/MainModel.swift; sourceTree = "<group>"; };
+		84761C471C3FC7370000BFFD /* UserAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserAlert.swift; path = Models/UserAlert.swift; sourceTree = "<group>"; };
+		84761C491C3FCFF30000BFFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8495E3D41C3EF55300E5816F /* DetectorSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetectorSettings.swift; path = Models/DetectorSettings.swift; sourceTree = "<group>"; };
+		8495E3D81C3F1A4B00E5816F /* SettingsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsManager.swift; path = Models/SettingsManager.swift; sourceTree = "<group>"; };
+		849B70DB1BE28CEE004BC624 /* Measures.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Measures.xcdatamodel; sourceTree = "<group>"; };
+		849B70DF1BE29046004BC624 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseManager.swift; path = Models/DatabaseManager.swift; sourceTree = "<group>"; };
+		849E57351C84DD9600D0D36C /* String+Validators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+Validators.swift"; path = "Extensions/String+Validators.swift"; sourceTree = "<group>"; };
+		84BDC5051BF20968008C08A6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84CB5EF11C0C252E00BE4072 /* FallDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FallDetector.swift; path = Models/FallDetector.swift; sourceTree = "<group>"; };
+		84D37DB51BA0D33E0063CE8E /* FuzzyFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FuzzyFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D37DB81BA0D33E0063CE8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D37DBD1BA0D33F0063CE8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D37DBF1BA0D33F0063CE8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D37DC41BA0D33F0063CE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D37DC91BA0D33F0063CE8E /* FuzzyFall.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuzzyFall.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D37DCD1BA0D33F0063CE8E /* MotionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionsTests.swift; sourceTree = "<group>"; };
+		84D37DCF1BA0D33F0063CE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D37DD41BA0D33F0063CE8E /* FuzzyFall.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FuzzyFall.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D37DD81BA0D33F0063CE8E /* MotionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionsUITests.swift; sourceTree = "<group>"; };
+		84D37DDA1BA0D33F0063CE8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D68A381C57F1AE00EFED7D /* UserSettings+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserSettings+CoreDataProperties.swift"; path = "Models/UserSettings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84D68A391C57F1AE00EFED7D /* UserSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSettings.swift; path = Models/UserSettings.swift; sourceTree = "<group>"; };
+		84DE84CE1BE4CDA3005FD938 /* Measure+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Measure+CoreDataProperties.swift"; path = "Models/Measure+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		84DE84CF1BE4CDA3005FD938 /* Measure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Measure.swift; path = Models/Measure.swift; sourceTree = "<group>"; };
+		84E1E28A1C4BFC0C00E16876 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		84E2422E1C404F6E001F3FA4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ViewControllers/SignUpViewController.swift; sourceTree = "<group>"; };
+		84E242381C406EA8001F3FA4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ViewControllers/LoginViewController.swift; sourceTree = "<group>"; };
+		84E297FF1C903B49000B2BE6 /* MotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MotionManager.swift; path = Models/MotionManager.swift; sourceTree = "<group>"; };
+		84E298011C903BD0000B2BE6 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ViewControllers/SWRevealViewController.h; sourceTree = "<group>"; };
+		84E298021C903BD0000B2BE6 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ViewControllers/SWRevealViewController.m; sourceTree = "<group>"; };
+		84E298041C903C1B000B2BE6 /* Duration+Validators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Duration+Validators.swift"; path = "Extensions/Duration+Validators.swift"; sourceTree = "<group>"; };
+		84E5E2171C8AEF050091812C /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		84E5E2191C8B117E0091812C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Models/Constants.swift; sourceTree = "<group>"; };
+		84E5E21B1C8B414C0091812C /* Emergency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Emergency.swift; path = Models/Emergency.swift; sourceTree = "<group>"; };
+		84E5E21D1C8B882C0091812C /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Models/LocationManager.swift; sourceTree = "<group>"; };
+		84F14AB01BE2D7B200148EF5 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		84F14AB21BE2D7E200148EF5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		84F14AB41BE2D83C00148EF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84F6E3361BB53C1800693F8C /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bridge.h; path = Motions/Bridge.h; sourceTree = "<group>"; };
+		BAE7079954850928183B2A25 /* Pods-Motions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Motions/Pods-Motions.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D37DB21BA0D33E0063CE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E5E2181C8AEF050091812C /* CoreMotion.framework in Frameworks */,
+				84E1E28B1C4BFC0C00E16876 /* MessageUI.framework in Frameworks */,
+				840611C81C3DC681005BA16B /* CoreLocation.framework in Frameworks */,
+				84761C4A1C3FCFF30000BFFD /* AudioToolbox.framework in Frameworks */,
+				84BDC5061BF20968008C08A6 /* AVFoundation.framework in Frameworks */,
+				84F14AB51BE2D83C00148EF5 /* SystemConfiguration.framework in Frameworks */,
+				84F14AB31BE2D7E200148EF5 /* CFNetwork.framework in Frameworks */,
+				84F14AB11BE2D7B200148EF5 /* libsqlite3.tbd in Frameworks */,
+				841EF0C51BDF964E00699A90 /* CoreTelephony.framework in Frameworks */,
+				EB8F8011AC65E2AD7ABFD283 /* Pods_Motions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D37DC61BA0D33F0063CE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D37DD11BA0D33F0063CE8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CEC2E8924BAA70BD1CA8449 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAE7079954850928183B2A25 /* Pods-Motions.debug.xcconfig */,
+				53756B37464BDA613269B63A /* Pods-Motions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		800A80D535A7F28DA5BDD44B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84761C491C3FCFF30000BFFD /* AudioToolbox.framework */,
+				84BDC5051BF20968008C08A6 /* AVFoundation.framework */,
+				84F14AB21BE2D7E200148EF5 /* CFNetwork.framework */,
+				840611C71C3DC681005BA16B /* CoreLocation.framework */,
+				84E5E2171C8AEF050091812C /* CoreMotion.framework */,
+				841EF0C41BDF964E00699A90 /* CoreTelephony.framework */,
+				84F14AB01BE2D7B200148EF5 /* libsqlite3.tbd */,
+				84E1E28A1C4BFC0C00E16876 /* MessageUI.framework */,
+				38F7AA0EC8F0B2141D0CC386 /* Pods_Motions.framework */,
+				84F14AB41BE2D83C00148EF5 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840F52841C0B89430089B8CE /* fl */ = {
+			isa = PBXGroup;
+			children = (
+				840F52851C0B89430089B8CE /* Accumulated.h */,
+				840F52861C0B89430089B8CE /* Activated.h */,
+				840F52871C0B89430089B8CE /* AlgebraicProduct.h */,
+				840F52881C0B89430089B8CE /* AlgebraicSum.h */,
+				840F52891C0B89430089B8CE /* Antecedent.h */,
+				840F528A1C0B89430089B8CE /* Any.h */,
+				840F528B1C0B89430089B8CE /* Bell.h */,
+				840F528C1C0B89430089B8CE /* Bisector.h */,
+				840F528D1C0B89430089B8CE /* BoundedDifference.h */,
+				840F528E1C0B89430089B8CE /* BoundedSum.h */,
+				840F528F1C0B89430089B8CE /* Centroid.h */,
+				840F52901C0B89430089B8CE /* CloningFactory.h */,
+				840F52911C0B89430089B8CE /* Concave.h */,
+				840F52921C0B89430089B8CE /* Consequent.h */,
+				840F52931C0B89430089B8CE /* Console.h */,
+				840F52941C0B89430089B8CE /* Constant.h */,
+				840F52951C0B89430089B8CE /* ConstructionFactory.h */,
+				840F52961C0B89430089B8CE /* Cosine.h */,
+				840F52971C0B89430089B8CE /* CppExporter.h */,
+				840F52981C0B89430089B8CE /* Defuzzifier.h */,
+				840F52991C0B89430089B8CE /* DefuzzifierFactory.h */,
+				840F529A1C0B89430089B8CE /* Discrete.h */,
+				840F529B1C0B89430089B8CE /* DrasticProduct.h */,
+				840F529C1C0B89430089B8CE /* DrasticSum.h */,
+				840F529D1C0B89430089B8CE /* EinsteinProduct.h */,
+				840F529E1C0B89430089B8CE /* EinsteinSum.h */,
+				840F529F1C0B89430089B8CE /* Engine.h */,
+				840F52A01C0B89430089B8CE /* Exception.h */,
+				840F52A11C0B89430089B8CE /* Exporter.h */,
+				840F52A21C0B89430089B8CE /* Expression.h */,
+				840F52A31C0B89430089B8CE /* Extremely.h */,
+				840F52A41C0B89430089B8CE /* FactoryManager.h */,
+				840F52A51C0B89430089B8CE /* FclExporter.h */,
+				840F52A61C0B89430089B8CE /* FclImporter.h */,
+				840F52A71C0B89430089B8CE /* FisExporter.h */,
+				840F52A81C0B89430089B8CE /* FisImporter.h */,
+				840F52A91C0B89430089B8CE /* FldExporter.h */,
+				840F52AA1C0B89430089B8CE /* FllExporter.h */,
+				840F52AB1C0B89430089B8CE /* FllImporter.h */,
+				840F52AC1C0B89430089B8CE /* Function.h */,
+				840F52AD1C0B89430089B8CE /* FunctionFactory.h */,
+				840F52AE1C0B89430089B8CE /* fuzzylite.h */,
+				840F52AF1C0B89430089B8CE /* Gaussian.h */,
+				840F52B01C0B89430089B8CE /* GaussianProduct.h */,
+				840F52B11C0B89430089B8CE /* HamacherProduct.h */,
+				840F52B21C0B89430089B8CE /* HamacherSum.h */,
+				840F52B31C0B89430089B8CE /* Headers.h */,
+				840F52B41C0B89430089B8CE /* Hedge.h */,
+				840F52B51C0B89430089B8CE /* HedgeFactory.h */,
+				840F52B61C0B89430089B8CE /* Importer.h */,
+				840F52B71C0B89430089B8CE /* InputVariable.h */,
+				840F52B81C0B89430089B8CE /* IntegralDefuzzifier.h */,
+				840F52B91C0B89430089B8CE /* JavaExporter.h */,
+				840F52BA1C0B89430089B8CE /* LargestOfMaximum.h */,
+				840F52BB1C0B89430089B8CE /* Linear.h */,
+				840F52BC1C0B89430089B8CE /* Maximum.h */,
+				840F52BD1C0B89430089B8CE /* MeanOfMaximum.h */,
+				840F52BE1C0B89430089B8CE /* Minimum.h */,
+				840F52BF1C0B89430089B8CE /* NilpotentMaximum.h */,
+				840F52C01C0B89430089B8CE /* NilpotentMinimum.h */,
+				840F52C11C0B89430089B8CE /* Norm.h */,
+				840F52C21C0B89430089B8CE /* NormalizedSum.h */,
+				840F52C31C0B89430089B8CE /* Not.h */,
+				840F52C41C0B89430089B8CE /* Operation.h */,
+				840F52C51C0B89430089B8CE /* OutputVariable.h */,
+				840F52C61C0B89430089B8CE /* PiShape.h */,
+				840F52C71C0B89430089B8CE /* Ramp.h */,
+				840F52C81C0B89430089B8CE /* Rectangle.h */,
+				840F52C91C0B89430089B8CE /* Rule.h */,
+				840F52CA1C0B89430089B8CE /* RuleBlock.h */,
+				840F52CB1C0B89430089B8CE /* Seldom.h */,
+				840F52CC1C0B89430089B8CE /* Sigmoid.h */,
+				840F52CD1C0B89430089B8CE /* SigmoidDifference.h */,
+				840F52CE1C0B89430089B8CE /* SigmoidProduct.h */,
+				840F52CF1C0B89430089B8CE /* SmallestOfMaximum.h */,
+				840F52D01C0B89430089B8CE /* SNorm.h */,
+				840F52D11C0B89430089B8CE /* SNormFactory.h */,
+				840F52D21C0B89430089B8CE /* Somewhat.h */,
+				840F52D31C0B89430089B8CE /* Spike.h */,
+				840F52D41C0B89430089B8CE /* SShape.h */,
+				840F52D51C0B89430089B8CE /* Term.h */,
+				840F52D61C0B89430089B8CE /* TermFactory.h */,
+				840F52D71C0B89430089B8CE /* TNorm.h */,
+				840F52D81C0B89430089B8CE /* TNormFactory.h */,
+				840F52D91C0B89430089B8CE /* Trapezoid.h */,
+				840F52DA1C0B89430089B8CE /* Triangle.h */,
+				840F52DB1C0B89430089B8CE /* Variable.h */,
+				840F52DC1C0B89430089B8CE /* Very.h */,
+				840F52DD1C0B89430089B8CE /* WeightedAverage.h */,
+				840F52DE1C0B89430089B8CE /* WeightedDefuzzifier.h */,
+				840F52DF1C0B89430089B8CE /* WeightedSum.h */,
+				840F52E01C0B89430089B8CE /* ZShape.h */,
+			);
+			path = fl;
+			sourceTree = "<group>";
+		};
+		840F52E11C0B89430089B8CE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				840F52E21C0B89430089B8CE /* Accumulated.cpp */,
+				840F52E31C0B89430089B8CE /* Activated.cpp */,
+				840F52E41C0B89430089B8CE /* AlgebraicProduct.cpp */,
+				840F52E51C0B89430089B8CE /* AlgebraicSum.cpp */,
+				840F52E61C0B89430089B8CE /* Antecedent.cpp */,
+				840F52E71C0B89430089B8CE /* Any.cpp */,
+				840F52E81C0B89430089B8CE /* Bell.cpp */,
+				840F52E91C0B89430089B8CE /* Bisector.cpp */,
+				840F52EA1C0B89430089B8CE /* BoundedDifference.cpp */,
+				840F52EB1C0B89430089B8CE /* BoundedSum.cpp */,
+				840F52EC1C0B89430089B8CE /* Centroid.cpp */,
+				840F52ED1C0B89430089B8CE /* CloningFactory.cpp */,
+				840F52EE1C0B89430089B8CE /* Concave.cpp */,
+				840F52EF1C0B89430089B8CE /* Consequent.cpp */,
+				840F52F01C0B89430089B8CE /* Console.cpp */,
+				840F52F11C0B89430089B8CE /* Constant.cpp */,
+				840F52F21C0B89430089B8CE /* ConstructionFactory.cpp */,
+				840F52F31C0B89430089B8CE /* Cosine.cpp */,
+				840F52F41C0B89430089B8CE /* CppExporter.cpp */,
+				840F52F51C0B89430089B8CE /* DefuzzifierFactory.cpp */,
+				840F52F61C0B89430089B8CE /* Discrete.cpp */,
+				840F52F71C0B89430089B8CE /* DrasticProduct.cpp */,
+				840F52F81C0B89430089B8CE /* DrasticSum.cpp */,
+				840F52F91C0B89430089B8CE /* EinsteinProduct.cpp */,
+				840F52FA1C0B89430089B8CE /* EinsteinSum.cpp */,
+				840F52FB1C0B89430089B8CE /* Engine.cpp */,
+				840F52FC1C0B89440089B8CE /* Exception.cpp */,
+				840F52FD1C0B89440089B8CE /* Exporter.cpp */,
+				840F52FE1C0B89440089B8CE /* Expression.cpp */,
+				840F52FF1C0B89440089B8CE /* Extremely.cpp */,
+				840F53001C0B89440089B8CE /* FactoryManager.cpp */,
+				840F53011C0B89440089B8CE /* FclExporter.cpp */,
+				840F53021C0B89440089B8CE /* FclImporter.cpp */,
+				840F53031C0B89440089B8CE /* FisExporter.cpp */,
+				840F53041C0B89440089B8CE /* FisImporter.cpp */,
+				840F53051C0B89440089B8CE /* FldExporter.cpp */,
+				840F53061C0B89440089B8CE /* FllExporter.cpp */,
+				840F53071C0B89440089B8CE /* FllImporter.cpp */,
+				840F53081C0B89440089B8CE /* Function.cpp */,
+				840F53091C0B89440089B8CE /* FunctionFactory.cpp */,
+				840F530A1C0B89440089B8CE /* fuzzylite.cpp */,
+				840F530B1C0B89440089B8CE /* Gaussian.cpp */,
+				840F530C1C0B89440089B8CE /* GaussianProduct.cpp */,
+				840F530D1C0B89440089B8CE /* HamacherProduct.cpp */,
+				840F530E1C0B89440089B8CE /* HamacherSum.cpp */,
+				840F530F1C0B89440089B8CE /* HedgeFactory.cpp */,
+				840F53101C0B89440089B8CE /* Importer.cpp */,
+				840F53111C0B89440089B8CE /* InputVariable.cpp */,
+				840F53121C0B89440089B8CE /* IntegralDefuzzifier.cpp */,
+				840F53131C0B89440089B8CE /* JavaExporter.cpp */,
+				840F53141C0B89440089B8CE /* LargestOfMaximum.cpp */,
+				840F53151C0B89440089B8CE /* Linear.cpp */,
+				840F53161C0B89440089B8CE /* main.cpp */,
+				840F53171C0B89440089B8CE /* Maximum.cpp */,
+				840F53181C0B89440089B8CE /* MeanOfMaximum.cpp */,
+				840F53191C0B89440089B8CE /* Minimum.cpp */,
+				840F531A1C0B89440089B8CE /* NilpotentMaximum.cpp */,
+				840F531B1C0B89440089B8CE /* NilpotentMinimum.cpp */,
+				840F531C1C0B89440089B8CE /* NormalizedSum.cpp */,
+				840F531D1C0B89440089B8CE /* Not.cpp */,
+				840F531E1C0B89440089B8CE /* Operation.cpp */,
+				840F531F1C0B89440089B8CE /* OutputVariable.cpp */,
+				840F53201C0B89440089B8CE /* PiShape.cpp */,
+				840F53211C0B89440089B8CE /* Ramp.cpp */,
+				840F53221C0B89440089B8CE /* Rectangle.cpp */,
+				840F53231C0B89440089B8CE /* Rule.cpp */,
+				840F53241C0B89440089B8CE /* RuleBlock.cpp */,
+				840F53251C0B89440089B8CE /* Seldom.cpp */,
+				840F53261C0B89440089B8CE /* Sigmoid.cpp */,
+				840F53271C0B89440089B8CE /* SigmoidDifference.cpp */,
+				840F53281C0B89440089B8CE /* SigmoidProduct.cpp */,
+				840F53291C0B89440089B8CE /* SmallestOfMaximum.cpp */,
+				840F532A1C0B89440089B8CE /* SNormFactory.cpp */,
+				840F532B1C0B89440089B8CE /* Somewhat.cpp */,
+				840F532C1C0B89440089B8CE /* Spike.cpp */,
+				840F532D1C0B89440089B8CE /* SShape.cpp */,
+				840F532E1C0B89440089B8CE /* Term.cpp */,
+				840F532F1C0B89440089B8CE /* TermFactory.cpp */,
+				840F53301C0B89440089B8CE /* TNormFactory.cpp */,
+				840F53311C0B89440089B8CE /* Trapezoid.cpp */,
+				840F53321C0B89440089B8CE /* Triangle.cpp */,
+				840F53331C0B89440089B8CE /* Variable.cpp */,
+				840F53341C0B89440089B8CE /* Very.cpp */,
+				840F53351C0B89440089B8CE /* WeightedAverage.cpp */,
+				840F53361C0B89440089B8CE /* WeightedDefuzzifier.cpp */,
+				840F53371C0B89440089B8CE /* WeightedSum.cpp */,
+				840F53381C0B89440089B8CE /* ZShape.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		840F53391C0B89440089B8CE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				840F533A1C0B89440089B8CE /* MovingAverage.h */,
+				840F533B1C0B89440089B8CE /* MovingAverage.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		844569991C3E98ED00E5537A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8445699D1C3E9AA800E5537A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84E298011C903BD0000B2BE6 /* SWRevealViewController.h */,
+				84E298021C903BD0000B2BE6 /* SWRevealViewController.m */,
+				844569A51C3EA1EB00E5537A /* SettingsViewController.swift */,
+				844569A71C3EA62F00E5537A /* MenuViewController.swift */,
+				844569A91C3EC78900E5537A /* FallDetectorViewController.swift */,
+				844703221C5FE6590009F400 /* AboutViewController.swift */,
+				84E2422E1C404F6E001F3FA4 /* SignUpViewController.swift */,
+				84E242381C406EA8001F3FA4 /* LoginViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84675AA71BD7FB57004DFBA7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84E298041C903C1B000B2BE6 /* Duration+Validators.swift */,
+				849E57351C84DD9600D0D36C /* String+Validators.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		84675AAC1BD7FD01004DFBA7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				840DE92E1C3BD4AA00D40795 /* ActivityMonitor.swift */,
+				840F7B021C8D8F4400D348FE /* Backgrounder.swift */,
+				841EF0C21BDF93C500699A90 /* CallChecker.swift */,
+				84E5E2191C8B117E0091812C /* Constants.swift */,
+				849B70DF1BE29046004BC624 /* DatabaseManager.swift */,
+				8495E3D41C3EF55300E5816F /* DetectorSettings.swift */,
+				84656D671C835EE50009E631 /* DetectorSettings+CoreDataProperties.swift */,
+				84E5E21B1C8B414C0091812C /* Emergency.swift */,
+				84CB5EF11C0C252E00BE4072 /* FallDetector.swift */,
+				840F52811C0B88DF0089B8CE /* FuzzySolver.h */,
+				840F52821C0B88DF0089B8CE /* FuzzySolver.mm */,
+				84E5E21D1C8B882C0091812C /* LocationManager.swift */,
+				84761C451C3F95CC0000BFFD /* MainModel.swift */,
+				84DE84CF1BE4CDA3005FD938 /* Measure.swift */,
+				84DE84CE1BE4CDA3005FD938 /* Measure+CoreDataProperties.swift */,
+				84E297FF1C903B49000B2BE6 /* MotionManager.swift */,
+				8495E3D81C3F1A4B00E5816F /* SettingsManager.swift */,
+				84656D6C1C835F370009E631 /* User.swift */,
+				84656D661C835EE50009E631 /* User+CoreDataProperties.swift */,
+				84761C471C3FC7370000BFFD /* UserAlert.swift */,
+				84D68A391C57F1AE00EFED7D /* UserSettings.swift */,
+				84D68A381C57F1AE00EFED7D /* UserSettings+CoreDataProperties.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		849B70D51BE255BE004BC624 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				844703201C5FE0AA0009F400 /* 1min.mp3 */,
+				841D62861C8EE7DE00F8AFA7 /* Configs.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		84D37DAC1BA0D33E0063CE8E = {
+			isa = PBXGroup;
+			children = (
+				84F6E3361BB53C1800693F8C /* Bridge.h */,
+				84D37DB71BA0D33E0063CE8E /* Motions */,
+				84D37DCC1BA0D33F0063CE8E /* MotionsTests */,
+				84D37DD71BA0D33F0063CE8E /* MotionsUITests */,
+				84D37DB61BA0D33E0063CE8E /* Products */,
+				800A80D535A7F28DA5BDD44B /* Frameworks */,
+				0CEC2E8924BAA70BD1CA8449 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		84D37DB61BA0D33E0063CE8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D37DB51BA0D33E0063CE8E /* FuzzyFall.app */,
+				84D37DC91BA0D33F0063CE8E /* FuzzyFall.xctest */,
+				84D37DD41BA0D33F0063CE8E /* FuzzyFall.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D37DB71BA0D33E0063CE8E /* Motions */ = {
+			isa = PBXGroup;
+			children = (
+				8445699D1C3E9AA800E5537A /* ViewControllers */,
+				844569991C3E98ED00E5537A /* Views */,
+				840F52841C0B89430089B8CE /* fl */,
+				840F52E11C0B89430089B8CE /* src */,
+				840F53391C0B89440089B8CE /* Utility */,
+				849B70D51BE255BE004BC624 /* SupportingFiles */,
+				84675AAC1BD7FD01004DFBA7 /* Models */,
+				84675AA71BD7FB57004DFBA7 /* Extensions */,
+				84D37DB81BA0D33E0063CE8E /* AppDelegate.swift */,
+				84D37DBC1BA0D33F0063CE8E /* Main.storyboard */,
+				84D37DBF1BA0D33F0063CE8E /* Assets.xcassets */,
+				84D37DC41BA0D33F0063CE8E /* Info.plist */,
+				849B70DA1BE28CEE004BC624 /* Measures.xcdatamodeld */,
+			);
+			path = Motions;
+			sourceTree = "<group>";
+		};
+		84D37DCC1BA0D33F0063CE8E /* MotionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D37DCD1BA0D33F0063CE8E /* MotionsTests.swift */,
+				84D37DCF1BA0D33F0063CE8E /* Info.plist */,
+			);
+			path = MotionsTests;
+			sourceTree = "<group>";
+		};
+		84D37DD71BA0D33F0063CE8E /* MotionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D37DD81BA0D33F0063CE8E /* MotionsUITests.swift */,
+				84D37DDA1BA0D33F0063CE8E /* Info.plist */,
+			);
+			path = MotionsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D37DB41BA0D33E0063CE8E /* FuzzyFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D37DDD1BA0D33F0063CE8E /* Build configuration list for PBXNativeTarget "FuzzyFall" */;
+			buildPhases = (
+				4F13465E76DCE97333EA480E /* Check Pods Manifest.lock */,
+				84D37DB11BA0D33E0063CE8E /* Sources */,
+				84D37DB21BA0D33E0063CE8E /* Frameworks */,
+				84D37DB31BA0D33E0063CE8E /* Resources */,
+				D2B752558A814718B9CB1973 /* Copy Pods Resources */,
+				84E4CA301BB9D0C600E724D7 /* Embed Frameworks */,
+				28565B38400D060C09C1BFEF /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuzzyFall;
+			productName = Motions;
+			productReference = 84D37DB51BA0D33E0063CE8E /* FuzzyFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D37DC81BA0D33F0063CE8E /* FuzzyFallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D37DE01BA0D33F0063CE8E /* Build configuration list for PBXNativeTarget "FuzzyFallTests" */;
+			buildPhases = (
+				84D37DC51BA0D33F0063CE8E /* Sources */,
+				84D37DC61BA0D33F0063CE8E /* Frameworks */,
+				84D37DC71BA0D33F0063CE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D37DCB1BA0D33F0063CE8E /* PBXTargetDependency */,
+			);
+			name = FuzzyFallTests;
+			productName = MotionsTests;
+			productReference = 84D37DC91BA0D33F0063CE8E /* FuzzyFall.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D37DD31BA0D33F0063CE8E /* FuzzyFallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D37DE31BA0D33F0063CE8E /* Build configuration list for PBXNativeTarget "FuzzyFallUITests" */;
+			buildPhases = (
+				84D37DD01BA0D33F0063CE8E /* Sources */,
+				84D37DD11BA0D33F0063CE8E /* Frameworks */,
+				84D37DD21BA0D33F0063CE8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D37DD61BA0D33F0063CE8E /* PBXTargetDependency */,
+			);
+			name = FuzzyFallUITests;
+			productName = MotionsUITests;
+			productReference = 84D37DD41BA0D33F0063CE8E /* FuzzyFall.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D37DAD1BA0D33E0063CE8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = antonShcherba;
+				TargetAttributes = {
+					84D37DB41BA0D33E0063CE8E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = MN9V6W9UPZ;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					84D37DC81BA0D33F0063CE8E = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0820;
+						TestTargetID = 84D37DB41BA0D33E0063CE8E;
+					};
+					84D37DD31BA0D33F0063CE8E = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0820;
+						TestTargetID = 84D37DB41BA0D33E0063CE8E;
+					};
+				};
+			};
+			buildConfigurationList = 84D37DB01BA0D33E0063CE8E /* Build configuration list for PBXProject "FuzzyFall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D37DAC1BA0D33E0063CE8E;
+			productRefGroup = 84D37DB61BA0D33E0063CE8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D37DB41BA0D33E0063CE8E /* FuzzyFall */,
+				84D37DC81BA0D33F0063CE8E /* FuzzyFallTests */,
+				84D37DD31BA0D33F0063CE8E /* FuzzyFallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D37DB31BA0D33E0063CE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841D62871C8EE7DE00F8AFA7 /* Configs.plist in Resources */,
+				84D37DC01BA0D33F0063CE8E /* Assets.xcassets in Resources */,
+				84D37DBE1BA0D33F0063CE8E /* Main.storyboard in Resources */,
+				844703211C5FE0AA0009F400 /* 1min.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D37DC71BA0D33F0063CE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D37DD21BA0D33F0063CE8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28565B38400D060C09C1BFEF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Motions/Pods-Motions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F13465E76DCE97333EA480E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B752558A814718B9CB1973 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Motions/Pods-Motions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D37DB11BA0D33E0063CE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840F53801C0B89440089B8CE /* Sigmoid.cpp in Sources */,
+				840F536E1C0B89440089B8CE /* LargestOfMaximum.cpp in Sources */,
+				840F53411C0B89440089B8CE /* Any.cpp in Sources */,
+				840F536B1C0B89440089B8CE /* InputVariable.cpp in Sources */,
+				840F537F1C0B89440089B8CE /* Seldom.cpp in Sources */,
+				84D68A3A1C57F1AE00EFED7D /* UserSettings+CoreDataProperties.swift in Sources */,
+				840F537C1C0B89440089B8CE /* Rectangle.cpp in Sources */,
+				840F53711C0B89440089B8CE /* Maximum.cpp in Sources */,
+				840F53461C0B89440089B8CE /* Centroid.cpp in Sources */,
+				840F53481C0B89440089B8CE /* Concave.cpp in Sources */,
+				840F536C1C0B89440089B8CE /* IntegralDefuzzifier.cpp in Sources */,
+				849B70DC1BE28CEE004BC624 /* Measures.xcdatamodeld in Sources */,
+				840F53401C0B89440089B8CE /* Antecedent.cpp in Sources */,
+				840F53491C0B89440089B8CE /* Consequent.cpp in Sources */,
+				8495E3D51C3EF55300E5816F /* DetectorSettings.swift in Sources */,
+				840F53581C0B89440089B8CE /* Expression.cpp in Sources */,
+				840F537E1C0B89440089B8CE /* RuleBlock.cpp in Sources */,
+				840F534D1C0B89440089B8CE /* Cosine.cpp in Sources */,
+				840F53471C0B89440089B8CE /* CloningFactory.cpp in Sources */,
+				84656D6A1C835EE50009E631 /* DetectorSettings+CoreDataProperties.swift in Sources */,
+				840F537A1C0B89440089B8CE /* PiShape.cpp in Sources */,
+				840F538C1C0B89440089B8CE /* Triangle.cpp in Sources */,
+				840F538F1C0B89440089B8CE /* WeightedAverage.cpp in Sources */,
+				84DE84D11BE4CDA3005FD938 /* Measure.swift in Sources */,
+				840F53781C0B89440089B8CE /* Operation.cpp in Sources */,
+				844569A61C3EA1EB00E5537A /* SettingsViewController.swift in Sources */,
+				844703231C5FE6590009F400 /* AboutViewController.swift in Sources */,
+				840F53541C0B89440089B8CE /* EinsteinSum.cpp in Sources */,
+				84E2422F1C404F6E001F3FA4 /* SignUpViewController.swift in Sources */,
+				840F53911C0B89440089B8CE /* WeightedSum.cpp in Sources */,
+				84E298001C903B49000B2BE6 /* MotionManager.swift in Sources */,
+				840F53811C0B89440089B8CE /* SigmoidDifference.cpp in Sources */,
+				840F53851C0B89440089B8CE /* Somewhat.cpp in Sources */,
+				840F535E1C0B89440089B8CE /* FisImporter.cpp in Sources */,
+				840F53521C0B89440089B8CE /* DrasticSum.cpp in Sources */,
+				840F534C1C0B89440089B8CE /* ConstructionFactory.cpp in Sources */,
+				840F53931C0B89440089B8CE /* MovingAverage.m in Sources */,
+				84DE84D01BE4CDA3005FD938 /* Measure+CoreDataProperties.swift in Sources */,
+				840F533D1C0B89440089B8CE /* Activated.cpp in Sources */,
+				84D68A3B1C57F1AE00EFED7D /* UserSettings.swift in Sources */,
+				840F53701C0B89440089B8CE /* main.cpp in Sources */,
+				840F537D1C0B89440089B8CE /* Rule.cpp in Sources */,
+				84D37DB91BA0D33E0063CE8E /* AppDelegate.swift in Sources */,
+				840F53641C0B89440089B8CE /* fuzzylite.cpp in Sources */,
+				840F534E1C0B89440089B8CE /* CppExporter.cpp in Sources */,
+				840F53791C0B89440089B8CE /* OutputVariable.cpp in Sources */,
+				840F53441C0B89440089B8CE /* BoundedDifference.cpp in Sources */,
+				840F534F1C0B89440089B8CE /* DefuzzifierFactory.cpp in Sources */,
+				84E5E21E1C8B882C0091812C /* LocationManager.swift in Sources */,
+				840F53651C0B89440089B8CE /* Gaussian.cpp in Sources */,
+				840F538D1C0B89440089B8CE /* Variable.cpp in Sources */,
+				840F53771C0B89440089B8CE /* Not.cpp in Sources */,
+				841EF0C31BDF93C500699A90 /* CallChecker.swift in Sources */,
+				840F535C1C0B89440089B8CE /* FclImporter.cpp in Sources */,
+				840F53741C0B89440089B8CE /* NilpotentMaximum.cpp in Sources */,
+				840F536D1C0B89440089B8CE /* JavaExporter.cpp in Sources */,
+				840F538A1C0B89440089B8CE /* TNormFactory.cpp in Sources */,
+				840F53881C0B89440089B8CE /* Term.cpp in Sources */,
+				840F53751C0B89440089B8CE /* NilpotentMinimum.cpp in Sources */,
+				840F533C1C0B89440089B8CE /* Accumulated.cpp in Sources */,
+				840F53571C0B89440089B8CE /* Exporter.cpp in Sources */,
+				840F53891C0B89440089B8CE /* TermFactory.cpp in Sources */,
+				84656D691C835EE50009E631 /* User+CoreDataProperties.swift in Sources */,
+				840F53561C0B89440089B8CE /* Exception.cpp in Sources */,
+				840F538B1C0B89440089B8CE /* Trapezoid.cpp in Sources */,
+				840F538E1C0B89440089B8CE /* Very.cpp in Sources */,
+				840F53551C0B89440089B8CE /* Engine.cpp in Sources */,
+				840F533E1C0B89440089B8CE /* AlgebraicProduct.cpp in Sources */,
+				840F53721C0B89440089B8CE /* MeanOfMaximum.cpp in Sources */,
+				840F53431C0B89440089B8CE /* Bisector.cpp in Sources */,
+				840F53831C0B89440089B8CE /* SmallestOfMaximum.cpp in Sources */,
+				840F535F1C0B89440089B8CE /* FldExporter.cpp in Sources */,
+				840F53451C0B89440089B8CE /* BoundedSum.cpp in Sources */,
+				840F53531C0B89440089B8CE /* EinsteinProduct.cpp in Sources */,
+				840F534B1C0B89440089B8CE /* Constant.cpp in Sources */,
+				840F53761C0B89440089B8CE /* NormalizedSum.cpp in Sources */,
+				840F536A1C0B89440089B8CE /* Importer.cpp in Sources */,
+				840F53861C0B89440089B8CE /* Spike.cpp in Sources */,
+				840F53621C0B89440089B8CE /* Function.cpp in Sources */,
+				840F53731C0B89440089B8CE /* Minimum.cpp in Sources */,
+				840F533F1C0B89440089B8CE /* AlgebraicSum.cpp in Sources */,
+				84E242391C406EA8001F3FA4 /* LoginViewController.swift in Sources */,
+				84656D6D1C835F370009E631 /* User.swift in Sources */,
+				840F53511C0B89440089B8CE /* DrasticProduct.cpp in Sources */,
+				840F7B031C8D8F4400D348FE /* Backgrounder.swift in Sources */,
+				840F53921C0B89440089B8CE /* ZShape.cpp in Sources */,
+				840F536F1C0B89440089B8CE /* Linear.cpp in Sources */,
+				840F53681C0B89440089B8CE /* HamacherSum.cpp in Sources */,
+				84761C461C3F95CC0000BFFD /* MainModel.swift in Sources */,
+				840F53601C0B89440089B8CE /* FllExporter.cpp in Sources */,
+				840F53501C0B89440089B8CE /* Discrete.cpp in Sources */,
+				849B70E01BE29046004BC624 /* DatabaseManager.swift in Sources */,
+				840F537B1C0B89440089B8CE /* Ramp.cpp in Sources */,
+				840F53421C0B89440089B8CE /* Bell.cpp in Sources */,
+				840F53691C0B89440089B8CE /* HedgeFactory.cpp in Sources */,
+				84E5E21A1C8B117E0091812C /* Constants.swift in Sources */,
+				840F53871C0B89440089B8CE /* SShape.cpp in Sources */,
+				844569AA1C3EC78900E5537A /* FallDetectorViewController.swift in Sources */,
+				840F535A1C0B89440089B8CE /* FactoryManager.cpp in Sources */,
+				840F53661C0B89440089B8CE /* GaussianProduct.cpp in Sources */,
+				840F53671C0B89440089B8CE /* HamacherProduct.cpp in Sources */,
+				840F53591C0B89440089B8CE /* Extremely.cpp in Sources */,
+				840F52831C0B88DF0089B8CE /* FuzzySolver.mm in Sources */,
+				840F53821C0B89440089B8CE /* SigmoidProduct.cpp in Sources */,
+				84E5E21C1C8B414C0091812C /* Emergency.swift in Sources */,
+				84CB5EF21C0C252E00BE4072 /* FallDetector.swift in Sources */,
+				840F53841C0B89440089B8CE /* SNormFactory.cpp in Sources */,
+				84E298031C903BD0000B2BE6 /* SWRevealViewController.m in Sources */,
+				840F53901C0B89440089B8CE /* WeightedDefuzzifier.cpp in Sources */,
+				840F53631C0B89440089B8CE /* FunctionFactory.cpp in Sources */,
+				84E298051C903C1B000B2BE6 /* Duration+Validators.swift in Sources */,
+				840F535B1C0B89440089B8CE /* FclExporter.cpp in Sources */,
+				840F53611C0B89440089B8CE /* FllImporter.cpp in Sources */,
+				840DE92F1C3BD4AA00D40795 /* ActivityMonitor.swift in Sources */,
+				84761C481C3FC7370000BFFD /* UserAlert.swift in Sources */,
+				844569A81C3EA62F00E5537A /* MenuViewController.swift in Sources */,
+				840F534A1C0B89440089B8CE /* Console.cpp in Sources */,
+				8495E3D91C3F1A4B00E5816F /* SettingsManager.swift in Sources */,
+				840F535D1C0B89440089B8CE /* FisExporter.cpp in Sources */,
+				849E57361C84DD9600D0D36C /* String+Validators.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D37DC51BA0D33F0063CE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D37DCE1BA0D33F0063CE8E /* MotionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D37DD01BA0D33F0063CE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D37DD91BA0D33F0063CE8E /* MotionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D37DCB1BA0D33F0063CE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D37DB41BA0D33E0063CE8E /* FuzzyFall */;
+			targetProxy = 84D37DCA1BA0D33F0063CE8E /* PBXContainerItemProxy */;
+		};
+		84D37DD61BA0D33F0063CE8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D37DB41BA0D33E0063CE8E /* FuzzyFall */;
+			targetProxy = 84D37DD51BA0D33F0063CE8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D37DBC1BA0D33F0063CE8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D37DBD1BA0D33F0063CE8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D37DDB1BA0D33F0063CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Motions/Bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84D37DDC1BA0D33F0063CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D37DDE1BA0D33F0063CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE7079954850928183B2A25 /* Pods-Motions.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Motions",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					FL_CPP11,
+				);
+				INFOPLIST_FILE = Motions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonshcherba.Motions;
+				PRODUCT_NAME = FuzzyFall;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84D37DDF1BA0D33F0063CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53756B37464BDA613269B63A /* Pods-Motions.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Motions",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					FL_CPP11,
+				);
+				INFOPLIST_FILE = Motions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonshcherba.Motions;
+				PRODUCT_NAME = FuzzyFall;
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = NO;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Motions/Bridge.h;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84D37DE11BA0D33F0063CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonshcherba.MotionsTests;
+				PRODUCT_NAME = FuzzyFall;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuzzyFall.app/FuzzyFall";
+			};
+			name = Debug;
+		};
+		84D37DE21BA0D33F0063CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonshcherba.MotionsTests;
+				PRODUCT_NAME = FuzzyFall;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FuzzyFall.app/FuzzyFall";
+			};
+			name = Release;
+		};
+		84D37DE41BA0D33F0063CE8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonshcherba.MotionsUITests;
+				PRODUCT_NAME = FuzzyFall;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Motions;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		84D37DE51BA0D33F0063CE8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MotionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.antonshcherba.MotionsUITests;
+				PRODUCT_NAME = FuzzyFall;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Motions;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D37DB01BA0D33E0063CE8E /* Build configuration list for PBXProject "FuzzyFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D37DDB1BA0D33F0063CE8E /* Debug */,
+				84D37DDC1BA0D33F0063CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D37DDD1BA0D33F0063CE8E /* Build configuration list for PBXNativeTarget "FuzzyFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D37DDE1BA0D33F0063CE8E /* Debug */,
+				84D37DDF1BA0D33F0063CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D37DE01BA0D33F0063CE8E /* Build configuration list for PBXNativeTarget "FuzzyFallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D37DE11BA0D33F0063CE8E /* Debug */,
+				84D37DE21BA0D33F0063CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D37DE31BA0D33F0063CE8E /* Build configuration list for PBXNativeTarget "FuzzyFallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D37DE41BA0D33F0063CE8E /* Debug */,
+				84D37DE51BA0D33F0063CE8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		849B70DA1BE28CEE004BC624 /* Measures.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				849B70DB1BE28CEE004BC624 /* Measures.xcdatamodel */,
+			);
+			currentVersion = 849B70DB1BE28CEE004BC624 /* Measures.xcdatamodel */;
+			path = Measures.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84D37DAD1BA0D33E0063CE8E /* Project object */;
+}

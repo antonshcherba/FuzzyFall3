@@ -1,0 +1,13 @@
+PODS:
+  - CorePlot (2.0)
+  - skpsmtpmessage (0.0.1)
+
+DEPENDENCIES:
+  - CorePlot
+  - skpsmtpmessage
+
+SPEC CHECKSUMS:
+  CorePlot: b7f422ad363f2b0e48152471d6da45ce232eb8c6
+  skpsmtpmessage: f6e913380c784dd8d4a9f83c8790a302445a5e05
+
+COCOAPODS: 0.39.0
